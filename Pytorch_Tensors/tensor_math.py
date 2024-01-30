@@ -23,5 +23,14 @@ z_div = torch.true_divide(x, y)
 print(z_div)
 
 #inplace operations
+t = torch.zeros(3)
+t.add_(x)
+print(t)
+t+=x
+print(t)
 
-
+#Exponent
+z = x.pow(2)
+print(z)
+z = x**2
+print(z)
