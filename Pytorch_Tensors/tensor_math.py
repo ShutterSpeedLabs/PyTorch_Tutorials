@@ -34,3 +34,6 @@ z = x.pow(2)
 print(z)
 z = x**2
 print(z)
+
+
+
